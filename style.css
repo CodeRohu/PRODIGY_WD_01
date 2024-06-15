@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* transparent background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* shadow for subtle effect */
+    z-index: 1000; /* ensures the menu stays above other content */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #333; /* default text color */
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #fff; /* text color on hover */
+    background-color: #007bff; /* background color on hover */
+  }
+  
+  main {
+    margin-top: 60px; /* ensure main content is below the fixed header */
+  }
+  
+  section {
+    padding: 20px;
+    height: 100vh; /* full viewport height for each section */
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
